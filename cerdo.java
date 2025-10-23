@@ -7,18 +7,22 @@ String raza="iberico";
     //metodos
 public void comer()
     {
-      System.out.println("Estoy mordiendo");
+      System.out.println("Estoy comiendo");
     }
     public void morder ()
     {
-      if(morder ==true)
-      {
-        System.out.println("que te muerdo")
+          if(morder ==true)
+          {
+            System.out.println("que te muerdo")
           }
-      else
-      {
-        System.out.println("soy un cerdo pacifico")
+          else
+          {
+            System.out.println("soy un cerdo pacifico")
           }
     }
+    //parametro ()
+    public int sumar(int sumando1, int sumando2)
+    {
+      return sumando1 + sumando2;
   }
     
