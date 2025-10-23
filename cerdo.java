@@ -21,6 +21,7 @@ public class Cerdo
               }
         }
         //parametro ()
+   // si hay halgo distinto de void hay que poner return
         public int sumar(int sumando1, int sumando2)
         {
           return sumando1 + sumando2;
